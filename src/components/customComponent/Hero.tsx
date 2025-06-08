@@ -64,8 +64,10 @@ export default function Hero() {
       {/* Hero Content */}
       <main className="relative z-10 flex-1 flex flex-col items-center justify-center text-center text-white px-4 py-12">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-lg md:text-xl font-medium mb-2">Welcome to Packy</h2>
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">Fast And Reliable Moving Solutions</h1>
+          <h2 className="text-lg md:text-xl font-medium mb-2">Welcome to </h2>
+          <h1 className="text-3xl md:text-5xl font-bold mb-4">Shivam Transbort Packers &
+Movers
+</h1>
           <p className="text-sm md:text-base opacity-90 mb-8 max-w-xl mx-auto">
             At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentiu.
           </p>
@@ -108,7 +110,7 @@ export default function Hero() {
               <Phone className="h-5 w-5 text-gray-400 mr-2" />
               <Input
                 type="tel"
-                placeholder="(01)23 456 789"
+                placeholder="+91 7549944596"
                 className="border-none focus-visible:ring-0 focus-visible:ring-offset-0 p-0 h-auto text-gray-700"
               />
             </div>
