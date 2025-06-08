@@ -6,15 +6,7 @@
 import { useEffect, useState, useRef, useCallback } from "react";
 import Image from "next/image";
 import { cn } from "@/lib/utils"; // Helper for conditional classes
-import Event1Image from "/assets/1.jpg";
-import Event2Image from "../../app/public/assets/event-gallery/event-gallery-2.jpg";
-import Event3Image from "../../app/public/assets/event-gallery/event-gallery-3.jpg";
-import Event4Image from "../../app/public/assets/event-gallery/event-gallery-4.jpg";
-import Event5Image from "../../app/public/assets/event-gallery/event-gallery-5.jpg";
-import Event6Image from "../../app/public/assets/event-gallery/event-gallery-6.jpg";
-import Event7Image from "../../app/public/assets/event-gallery/event-gallery-7.jpg";
-import Event8Image from "../../app/public/assets/event-gallery/event-gallery-8.jpg";
-import Event9Image from "../../app/public/assets/event-gallery/event-gallery-9.jpg";
+
 
 // Define your image type and data array for gallery images
 interface ImageData {
