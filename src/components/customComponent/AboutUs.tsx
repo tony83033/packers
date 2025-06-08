@@ -57,7 +57,7 @@ export default function AboutUsSection() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-2xl">
               <Image
-                src="/movers-image.png"
+                src="/assets/about.jpg"
                 alt="Professional movers holding cardboard boxes"
                 width={600}
                 height={800}
