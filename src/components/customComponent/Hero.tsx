@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input"
 
 export default function Hero() {
   return (
-    <div className="relative min-h-screen flex flex-col">
+    <div className="relative min-h-screen flex flex-col" id="Home">
       {/* Background image with overlay */}
       <div className="absolute inset-0 z-0">
         <Image src="/assets/hero.jpg" alt="Moving boxes background" fill className="object-cover" />
@@ -22,28 +22,18 @@ export default function Hero() {
           </div>
 
           <nav className="hidden md:flex items-center space-x-6">
-            <a href="#" className="text-sm font-medium text-orange-500">
+            <a href="#Home" className="text-lg font-medium text-orange-500">
               Home
             </a>
-            <a href="#" className="text-sm font-medium text-gray-700">
+            <a href="#About" className="text-lg font-medium text-gray-700">
               About
             </a>
-            <a href="#" className="text-sm font-medium text-gray-700">
+            <a href="#Contact" className="text-lg font-medium text-gray-700">
               Contact
             </a>
-            <a href="#" className="text-sm font-medium text-gray-700">
-              Services
-            </a>
-            <a href="#" className="text-sm font-medium text-gray-700">
-              Team
-            </a>
-            <div className="relative group">
-              <button className="flex items-center text-sm font-medium text-gray-700">
-                More
-                <ChevronDown className="ml-1 h-4 w-4" />
-              </button>
-            </div>
-            <Button className="bg-orange-500 hover:bg-orange-600 text-white rounded-md">Get A Quote</Button>
+
+           
+
           </nav>
 
           <Button variant="ghost" className="md:hidden">

@@ -4,9 +4,9 @@ import { ClipboardList, Headphones } from "lucide-react"
 
 export default function AboutUsSection() {
   return (
-    <section className="h-full max-w-7xl mx-auto bg-slate-800 flex items-center">
+    <section className="h-full max-w-full mx-auto bg-slate-800 flex items-center" id="About">
       <div className="container mx-auto px-4 py-12 lg:py-24">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center" >
           {/* Left Column - Content */}
           <div className="space-y-8">
             {/* About Us Label */}
