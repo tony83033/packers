@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { ChevronRight, ChevronDown, Mail, Phone } from "lucide-react"
+import { ChevronRight, Mail, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 
@@ -78,7 +78,7 @@ Movers
       <div className="relative z-10 max-w-3xl mx-auto -mt-16 mb-8 flex flex-col md:flex-row">
         <div className="bg-orange-500 text-white p-6 flex items-center justify-between md:w-64">
           <div>
-            <h3 className="font-bold text-xl">Track Your Shipment</h3>
+            <h3 className="font-bold text-xl"> Your Shipment</h3>
           </div>
           <ChevronRight className="h-6 w-6" />
         </div>
@@ -87,11 +87,13 @@ Movers
             <p className="text-gray-500 mb-1">Email</p>
             <div className="flex items-center">
               <Mail className="h-5 w-5 text-gray-400 mr-2" />
-              <Input
-                type="email"
-                placeholder="envato@gmail.com"
+              <label
+                
+               
                 className="border-none focus-visible:ring-0 focus-visible:ring-offset-0 p-0 h-auto text-gray-700"
-              />
+              >
+                shivampackers&movers35@gmail.com
+                </label>
             </div>
           </div>
           <div className="flex-1 p-4">
